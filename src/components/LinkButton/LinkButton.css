@@ -1,0 +1,24 @@
+.container-links{
+  width: 100%;
+  height: auto;
+  margin: 35px auto;
+}
+
+.links {
+    background: linear-gradient(45deg, rgb(30, 112, 189) 10%, rgb(124, 212, 235) 100%);
+    border-radius: .75rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-weight: 700;
+    padding: 10px;
+    text-decoration: none;
+    transition: .2s;
+    width: 50px;
+    height: auto;
+  }
+  
+  .links:hover {
+    box-shadow: 0 4px 10px rgb(0, 0, 0);
+    padding: 15px;
+    transition: 0.4s;
+  }
